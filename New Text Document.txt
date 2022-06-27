@@ -1,0 +1,38 @@
+7.Deploying Apps
+
+Pod,RC,RS,Deployment
+
+Build
+Build Config
+Deployment Config
+Routes
+
+S2I
+Image streams
+Docker file build 
+
+Useing Local Templets
+
+from github
+from sample code
+from container image
+
+oc project
+oc projects
+oc new-app --name blue-cli https://github.com/devopswithcloud/gcp_training_images.git --context-dir=blue/
+get bc
+oc get builds
+oc get pods
+oc get routs
+oc get svc
+oc expose svc blue-cli
+oc get routes
+
+Deployment vs Deployment Config
+
+Roling Update
+Recreate
+
+
+DC:-Custom Stratagy
+Triggers 
